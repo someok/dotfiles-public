@@ -26,3 +26,9 @@
 
     -   `prefix` + <kbd>alt</kbd> + <kbd>u</kbd>
         -   remove/uninstall plugins not on the plugin list
+
+### 初始化 tmux 步骤
+
+-   执行 `bin/ln_tmux.sh` 在用户跟目录下创建 `.tmux.conf` 的软连接
+-   执行 `tmux source-file ~/.tmux.conf`
+-   执行 `prefix` + <kbd>I</kbd> 安装 TMP 插件
