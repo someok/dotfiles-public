@@ -1,5 +1,6 @@
 {
-  "logback": {
+  "$schema": "https://lnav.org/schemas/format-v1.schema.json",
+  "springboot": {
     "title": "Logback log format",
     "description": "Log format used by spring-boot",
     "url": "https://docs.spring.io/spring-boot/docs/current/reference/html/boot-features-logging.html#boot-features-logging-format",
