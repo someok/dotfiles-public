@@ -6,13 +6,16 @@
 
 安装方式：
 
-> brew install cheat
+-   Mac:
+    > brew install cheat
+-   Ubuntu:
+    > sudo snap install cheat
 
 ## tmux
 
 通过 `.tmux.conf` 重定义了 tmux 部分配置。
 
--   `ctrl+b` 太长，换用 `ctrl+q` 作为前置快捷键
+-   `ctrl+b` 太长，换用 `ctrl+a` 作为前置快捷键
 -   `prefix` + <kbd>R</kbd> 重载 tmux 配置
 -   使用 [TPM](https://github.com/tmux-plugins/tpm) 管理 tmux 插件，初次调用 `tmux` 时会自动安装 TPM
 
