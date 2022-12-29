@@ -16,3 +16,5 @@ function echoWarn {
 ROOT=$(dirname "$PWD")
 #ROOT=`dirname $0`
 echoInfo "ROOT dir: ${ROOT}"
+
+OS=$(echo $(uname) | tr '[:upper:]' '[:lower:]')
