@@ -6,3 +6,7 @@ source $DOTFILES_ROOT/zsh/aliases.zsh
 
 source $DOTFILES_ROOT/zsh/fzf.zsh
 [ -f $DOTFILES_ROOT/zsh/.fzf.zsh ] && source $DOTFILES_ROOT/zsh/.fzf.zsh
+
+# aws command-completion
+AWS_COMPLETER="$(command -v aws_completer)"
+[[ "${AWS_COMPLETER}" ]] && complete -C $AWS_COMPLETER aws
